@@ -1,0 +1,37 @@
+.UserInfoBox {
+    width: 100%;
+}
+
+.UserTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.UserNameAvatarBox {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.UserAvatar img {
+    border-radius: 50%;
+}
+
+.UserEstablishmentBox {
+    display: flex;
+    column-gap: 80px;
+    margin-top: 50px;
+}
+
+.UserEstablishments {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 50px;
+}

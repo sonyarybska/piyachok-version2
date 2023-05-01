@@ -1,0 +1,16 @@
+.EstablishmentItem{
+    display: flex;
+    column-gap: 20px;
+    padding: 20px;
+    align-items: center;
+    background-color: white;
+}
+
+.EstablishmentImage{
+    width: 150px;
+    height: 170px;
+}
+
+.EstablishmentDetails{
+    width: 450px;
+}

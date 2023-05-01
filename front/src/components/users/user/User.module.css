@@ -1,0 +1,17 @@
+.UserItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 5px;
+    background-color: white;
+    padding: 20px;
+}
+.UserItem img{
+    width: 100px;
+    height:100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

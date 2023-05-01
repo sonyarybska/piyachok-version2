@@ -1,0 +1,166 @@
+.InfoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    column-gap: 40px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.InfoContainer span{
+    color: #0552b7;
+}
+
+.LeftSide {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: start;
+    justify-content: center;
+}
+
+.UserInfo {
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.PUser {
+    text-transform: uppercase;
+}
+
+.Location {
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Location h3{
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.LocationImg{
+    display: flex;
+    column-gap: 15px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.UserAvatar {
+    border-radius: 50%;
+    width: 47px;
+    height: 47px;
+}
+.ActiveInfo{
+    color: #838080;
+}
+
+.UserTitle{
+    display: flex;
+    margin-top: 20px;
+    column-gap: 10px;
+}
+
+.EstablishmentInfo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 700px;
+    background-color: white;
+}
+.Phone{
+    font-size: 20px;
+}
+
+.OpenHours{
+    font-size: 18px;
+}
+
+.EstablishmentInfo h5{
+    font-weight: 200;
+    color: #838080;
+}
+
+.RightSide {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.Title {
+    font-size: 30px;
+}
+
+.AverageCheck{
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+.Slider {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    width: 700px;
+    height: 500px;
+    justify-content: center;
+    background-color: white;
+}
+
+.Slider.Active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+
+.Active {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.Slide {
+    transition-duration: 1s;
+}
+
+.Slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+
+.Image {
+    position: relative;
+    width: 30em;
+    height: 400px;
+}
+
+.SwiperContainer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+.SwiperPagination {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid grey;
+}

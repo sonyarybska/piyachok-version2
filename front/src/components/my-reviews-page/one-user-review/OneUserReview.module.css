@@ -1,0 +1,31 @@
+.ReviewItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:white;
+    padding: 20px;
+}
+
+.EstablishmentItemReview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.EstablishmentItemReviewAvatar {
+    width: 150px;
+    height: 150px;
+}
+
+.ReviewText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ReviewText p {
+    width: 300px;
+    word-wrap: break-word;
+}

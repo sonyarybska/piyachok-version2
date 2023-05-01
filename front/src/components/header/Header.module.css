@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+
+.Header {
+    width: 100%;
+    height: 150px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 250px;
+}
+.SearchForm{
+    display: flex;
+    column-gap: 5px;
+}
+
+.Title {
+    color: white;
+    font-family: 'Neonderthaw', cursive;
+    font-size: 60px;
+}
+
+.Logo {
+    width: 60px;
+    height: 60px;
+}
+.LogoTitle {
+     display: flex;
+     align-items: center;
+     column-gap: 20px;
+ }
+.LogoutBlock{
+    display: flex;
+}

@@ -1,0 +1,30 @@
+.ReviewsBox{
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 535px;
+}
+.Title{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.Container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ButtonBox{
+    display: flex;
+    gap: 5px;
+}
+
+.OneBtn{
+    width: 20px;
+    background-color: white;
+    height: 20px;
+}
+
+.ShowMore{
+    width: 70px;
+}

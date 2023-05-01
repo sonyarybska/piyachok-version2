@@ -1,0 +1,24 @@
+.Container{
+    width: 100%;
+    height:80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AuthBox{
+   background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 50px;
+    margin: 0 auto;
+    width: 700px;
+    height: 400px;
+}
+
+.AuthBox p{
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,185 @@
+.CreateEstablishmentForm input {
+    color: black;
+}
+
+.CreateEstablishmentForm {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-top: 60px;;
+}
+
+.PhotosWrap {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    grid-template-columns: repeat(10, auto);
+    gap: 16px;
+}
+
+.PhotoSection {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+    width: 1200px;
+    padding: 50px;
+}
+
+.DetailSection {
+    display: flex;
+    align-items: flex-start;
+    row-gap: 30px;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+    width: 1200px;
+    padding: 50px;
+
+}
+
+.ContactSection {
+    display: flex;
+    row-gap: 30px;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+    width: 1200px;
+    height: 100%;
+    padding: 50px;
+}
+
+.SubmitSection{
+    display: flex;
+    row-gap: 30px;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: white;
+    width: 1200px;
+    height: 100%;
+    padding: 20px;
+}
+
+.SubmitSection button{
+    width: 200px;
+    height: 35px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.SubmitSection button:hover{
+    background-color: white;
+    border: 5px solid black;
+    color: black;
+}
+
+.DetailSection input{
+    width: 50%;
+}
+.ContactSection input {
+    width: 50%;
+}
+
+
+.PhotosWrap {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    grid-template-columns: repeat(10, auto);
+    gap: 16px;
+}
+
+.DivPhotos {
+    position: relative;
+    width:170px;
+    height: 140px;
+    border-radius:4%;
+}
+
+.AddPhoto {
+    left: 0;
+    background-size: cover;
+    width: 170px;
+    height: 140px;
+    border-radius:4%;
+}
+
+.DivPhotos:hover .Delete{
+    display: block;
+}
+
+.DivPhotos:hover:after{
+    position: absolute;
+    left: 0;
+    content:" ";
+    width: 170px;
+    height: 140px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.Delete:hover {
+    display: block;
+}
+
+.Delete {
+    position: absolute;
+    display: none;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    left: 50px;
+    bottom:40px;
+    border-radius: 40%;
+    z-index: 3;
+}
+
+.DeleteBucket {
+    width: 60px;
+    height: 60px;
+    margin-left: 3px;
+}
+.MainPhoto{
+    display: none;
+}
+
+.main-photo0{
+    z-index: 3;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    height: 20px;
+    width: 70px;
+    background-color: #19dbff;
+    border: 1px solid black;
+
+}
+
+.main-photo0 h6{
+    font-size: 16px;
+}
+
+.Delete:hover {
+    display: block;
+    z-index: 1000;
+}
+
+.Delete {
+    position: absolute;
+    display: none;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    left: 50px;
+    bottom:40px;
+    border-radius: 40%;
+    z-index: 3;
+}
+
+
+

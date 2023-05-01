@@ -1,0 +1,56 @@
+.EstablishmentItem {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    overflow: visible;
+}
+
+.EstablishmentItem a {
+    text-decoration: none;
+    color: black;
+}
+
+.Avatar {
+    height: 200px;
+    width: 250px;
+}
+
+.filter-box {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.disable_link{
+    pointer-events: none;
+}
+.filter-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.filter-item p{
+    margin: 0;
+}
+
+.filter-item select{
+    height: 30px;
+}
+
+.between-form {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    margin: 0;
+}
+
+.between-form input {
+    width: 100px;
+    height: 30px;
+}
